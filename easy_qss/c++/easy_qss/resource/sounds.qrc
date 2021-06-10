@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>sounds/sbcg.wav</file>
+        <file>sounds/ksdl.wav</file>
+    </qresource>
+</RCC>

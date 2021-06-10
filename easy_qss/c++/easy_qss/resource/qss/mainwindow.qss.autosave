@@ -1,0 +1,89 @@
+QWidget #centralWidget
+{
+background-color: white;
+background-image: url(:/image/blue.jpg);
+}
+
+#frame
+{
+background-image: url(:/image/frame.jpg);
+border-radius: 20px;
+}
+
+QLabel
+{
+color: black;
+font: normal 400 16px "SimSun";
+height: 30px;
+}
+
+QLineEdit+
+{
+color: black;
+font: normal 400 16px "SimSun";
+height: 30px;
+border: 1px solid gray;
+border-radius: 10px;
+padding-left: 3px;
+}
+
+QComboBox
+{
+color: black;
+font: normal 400 16px "SimSun";
+height: 30px;
+border: 1px solid gray;
+border-radius: 10px;
+}
+QComboBox::drop-down
+{
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 30px;
+
+    border-left-width: 1px;
+    border-left-color: darkgray;
+    border-left-style: solid;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+QComboBox::down-arrow
+{
+    image: url(:/image/arrow_down.svg);
+}
+QComboBox QAbstractItemView
+{
+    outline: 0px solid gray;   /* 选定项的虚框 */
+    border: 1px solid white;   /* 整个下拉窗体的边框 */
+    color: black;
+    background: white;
+    selection-background-color: rgb(49, 193, 254);   /* 整个下拉窗体被选中项的背景色 */
+    selection-color: white;
+    height: 30px;
+}
+
+
+#personal_photo_label
+{
+border: 1px solid gray;
+background-color: rgb(240,240,240);
+border-radius: 20px;
+}
+
+QPushButton
+{
+color: white;
+height: 50px;
+background-color: rgb(49, 193, 254);
+border-radius: 15px;
+font: normal 400 16px "SimSun";
+}
+QPushButton::hover
+{
+color: black;
+}
+QPushButton::pressed
+{
+color: black;
+font: normal 400 18px "SimSun";
+}
